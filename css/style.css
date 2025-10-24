@@ -1,0 +1,42 @@
+/* h1{
+    background-color: brown;
+} */
+
+
+/* important! >> هاي انهلما اضيفها ع خاصية لازم هي الي تطبق  */
+
+/* h1{
+    background-color: chartreuse !important;
+} */
+
+/* هسا هون اذا بدي اغير ع شغلتين مع بعض  */
+
+/* h2,h3{
+    background-color: cornflowerblue;font-size: 50px ;text-align: center;
+} */
+
+
+/* *>> universal selectors >> هاي بتغير ع كل شي بالصفحه الا الي محددهم خصوصا  */
+/* *{
+    background-color: darkslateblue; font-size: 20px;
+} */
+
+/* p *{ >> هسا هيك بروح بغير على العناصر الي جوا الفقرة  */
+
+/* p *{
+    background-color: deeppink;
+} */
+
+
+/* 
+بدنا نحكي عن ال >> class >> بقدر استخدمه لاكثر من عنصر 
+وبناديه بال >> dot (.بعدين اسم الكلاس )
+*/
+
+._mh{ font-size: large; text-align: center ; background-color: blueviolet;
+
+}
+
+#ys{
+    font-size: larger; background-color: aquamarine; text-align: center;
+}

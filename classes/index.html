@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html page</title>
+
+    <style>
+     /*  انا عدلت عالستايل عن طريق => inline 
+     هسا بدي اعدل عالستايل عن طريق اشي اسمه => internal 
+     وهو هاذ الاشي الي بحطه بال => head
+     هسا رح اضيف بعض الخصائص 
+      */
+      p{
+        color: red; background-color: aqua; font-size: large; 
+        /* هون ما حياخذ الخصائص لانه في الهن بال =>inline 
+        inline stronger than internal  */
+      }
+      h1{
+        color: blueviolet; background-color: blue; font-size: large; 
+      }
+      body{
+        background-color: chocolate;
+      }
+    </style>
 </head>
 <body>
     <!-- This is comment : اي انو بستطيع اكتب اي شي بحتاجه هون بدون ما ياثر على شغلي   -->
@@ -32,13 +51,13 @@
 <!-- br .. ما اله كلوز واوبن لانه ما بياخذ محتوى   >>>  <br>  -->
 
 
-   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Placeat exercitationem distinctio quibusdam! Debitis accusantium eius consequatur ratione voluptatibus? Commodi consectetur quod nobis cupiditate repellendus at omnis vitae, odit tempora voluptas?</p>
+   <p style="color: blue; font-size: large; background-color: chartreuse;"> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Placeat exercitationem distinctio quibusdam! Debitis accusantium eius consequatur ratione voluptatibus? Commodi consectetur quod nobis cupiditate repellendus at omnis vitae, odit tempora voluptas?</p>
 
    
 
 <!-- pre >> هي شو ما يصير تعديل داخل البرمجيه بصير عالصفحة  -->
 
-   <pre>
+   <pre style="color: brown;">
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
      Placeat exercitationem distinctio quibusdam! 
      Debitis accusantium eius consequatur ratione voluptatibus?
