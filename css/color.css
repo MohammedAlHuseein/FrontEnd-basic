@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: hsl(0, 100%, 50%);
+}
+
+html{
+    font-size: 16px;
+}
+div{
+    font-size: 20px;
+}
+.em{
+    font-size: 2em;
+    background-color: chartreuse;
+}
+.rem{
+    font-size: 2rem;
+    background-color: crimson;
+}
+
+h2{
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
