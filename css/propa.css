@@ -1,0 +1,38 @@
+/* p{
+    letter-spacing:normal;
+    word-spacing: 12px;
+    line-height: 40px;
+    text-indent: 90px;
+    text-align: right;
+} */
+
+a:link{
+    color: black;
+
+}
+a:visited{
+    color:blue ;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color:coral
+}
+a.atag:hover{
+    color: chartreuse;
+}
+h1{
+    /* display:inline; */
+    display: inline-block;
+    width: 400px ;
+    height: 300px;
+    border: 10px solid black;
+}
+#mh{
+    text-align: center;
+    background-color: aqua;
+}
+img{
+    width: 100px;
+}
