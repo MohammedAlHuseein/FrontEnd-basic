@@ -7,3 +7,4 @@
 |4| intro to css | [click](./classes/try.html)<br>[click2](./css/style.css)
 5|proparities|[click](./classes/prop.html)<br>[click](./css/propa.css)
 |6|task|[click](./classes/task.html)<br>[click](./css/task.css)
+|7| lec 7 html==> <br> css ==> | [click](/classes/index2.html) <br> [click](/css/index2.css)
