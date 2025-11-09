@@ -1,7 +1,9 @@
 body{
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+ 
 }
+
 #nav{
     display: flex;
 background-color: darkblue;
@@ -41,6 +43,7 @@ button{
    display: flex;
    align-items: center;
    gap: 10px;
+}
  
 p{
     font-size: 30px;
@@ -62,4 +65,34 @@ p{
     display: flex;
     gap: 10px;
     margin-right: 10px;
+}
+#ta table a{
+    color: blue 
+}
+#ta table img {
+    width: 100px;
+    border-radius: 0;
+}
+#ta {
+  margin-bottom: 0;
+
+}
+#ta table {
+  margin: 0;
+  padding: 0;  
+  width: 200%;
+  margin-left: 5px;
+}
+#ca{ 
+    background-color: chartreuse;
+    text-align: center;
+}
+#bg{
+    display: flex;
+    gap: 10px;
+}
+.s{
+    margin-left: 350px;
+    margin-top: 10px;
+   margin-bottom: 20px;
 }

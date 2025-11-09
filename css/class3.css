@@ -1,0 +1,25 @@
+body{
+    background-color: brown;
+}
+#footer{
+    /* هيك لانه بكون عندي اشي افتراضي ما بسمحلي اتحكم بمكان العنصر  */
+position: fixed;   
+
+background-color: blue;
+bottom: 0px;
+width: 100%;
+
+height: 120px;
+}
+#ptag{
+    text-align: center;
+    margin-top: 50px;
+ 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* هاي عشان الغي الفراغات الي جوا الصفحة  */
+}
