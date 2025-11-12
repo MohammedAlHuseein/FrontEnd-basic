@@ -1,0 +1,115 @@
+body{
+    padding: 0PX;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+#maingrid{
+    display: grid;
+    grid-template-areas: 'nav nav nav'
+                        'menu main main'
+                        'menu footer footer';
+}
+
+#navbar{
+    background-color: rgb(137, 126, 170);
+    height: 150px;
+    width: 100%;
+    grid-area: nav;
+    justify-content: space-between;
+    display: flex;
+    
+}
+#navbar img {
+    border-radius: 50%;
+    margin: 15px;
+    padding: 15px;
+    
+}
+#navbar ul{
+    display: flex;
+   gap: 5px;
+    list-style: none;
+      margin-top: 50px;
+    
+}
+#navbar a {
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+#navbar p{
+    
+   position: absolute;
+   display: inline;
+   margin-left: 50% ;
+   margin-top: 60px;
+}
+
+#menu{
+    background-color: antiquewhite;
+     height: 100%;
+    width: 100%;
+    grid-area: menu;
+    
+    padding-right: 40px;
+   
+}
+#menu ol {
+   padding-right: 10px;
+
+}
+
+#main{
+    background-color: blue;
+     height: 800px;
+    width: 100%;
+    grid-area: main;
+}
+
+#photo{
+    margin: 10px;
+    padding: 10px;  
+
+}
+#o{
+    display: flex;
+    padding-bottom: 80px;
+}
+#t{
+    display: flex;
+    padding-bottom: 80px;
+}
+#th{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+#footer{
+    background-color: rgb(140, 100, 100);
+     height: 150px;
+    width: 100%;
+    grid-area: footer;
+    padding: 10px;
+    
+}
+#post{
+    text-align: center;
+}
+#r{
+    display: flex;
+}
+#li{
+    margin-top: 15px;
+}
+#li a {
+    text-decoration: none;
+    padding: right 5px; 
+}
