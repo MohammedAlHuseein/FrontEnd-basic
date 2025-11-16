@@ -11,3 +11,4 @@
 |8|Task2==>html <br> Css==>|[click](/classes/task2.html) <br> [click](/css/task2.css)
 |9|task3==> <br> css==>|[click](/classes/tasl3.html) <br> [click](/css/task3.css)
 |10|task 4 ==> <br> css ==> |[click](/classes/area.html)<br>[click](/css/area.css)
+|11|task 5 ==> <br> css ==> | [click](/classes/task5.html) <br> [click](/css/task5.css)

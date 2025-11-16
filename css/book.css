@@ -1,0 +1,65 @@
+body{
+     padding: 0px;
+    margin: 0px;
+}
+
+#nav{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(43, 222, 37);
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+img{
+    height: 75px;
+    width: 75px;
+    margin: 37px;
+}
+#atag{
+    display:flex ;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+#atag a {
+    text-decoration: none;
+}
+#nav p {
+    align-items: center;
+    margin-top: 50px;
+    font-size: larger;
+
+}
+#atag a:hover{
+ color: brown;
+ font-size: larger;
+}
+#one{
+    height: 700px;
+    width: 100%;
+    background-color: aqua;
+}
+#two{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(207, 22, 164);
+}
+#three{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(131, 205, 19);
+} 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
