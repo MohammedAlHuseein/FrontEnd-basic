@@ -96,3 +96,126 @@ p{
     margin-top: 10px;
    margin-bottom: 20px;
 }
+@media screen and ( max-width: 600px){
+    #bg{
+    display: block;
+    gap: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 0px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: small;
+}
+#ta table {
+  margin: 0;
+  padding: 0;  
+  width: 20%;
+  margin-left: 5px;
+}
+.s{
+    margin-left: 0px;
+    margin-top: 10px;
+   margin-bottom: 20px;
+}
+#nav{
+    display: flex;
+background-color: darkblue;
+
+align-items: center;
+margin-top: 0px;
+gap: 2px;
+}
+
+button{
+    margin-right: 150px;
+    border: 0px;
+    display: flex;
+}
+#post{
+    
+    text-align: center;
+    margin-right: 0;
+    width: 30%;
+    font-size: medium
+}
+.ab{
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+#co{
+    margin-left: 10px;
+    font-size: small;
+}
+}
+@media screen and ( max-width: 900px){
+       #bg{
+    display: flex;
+    gap: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 0px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: small;
+}
+#co{
+    margin-left: 10px;
+    font-size: small;
+}
+#post{
+    
+    text-align: center;
+    margin-right: 0;
+    width: 30%;
+}
+#footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(123, 50, 58);
+   bottom: 0;
+   position: fixed;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+#nav{
+    display: flex;
+background-color: darkblue;
+justify-content: space-between;
+align-items: center;
+margin-top: 0px;
+gap: 5px;
+width: 100%;
+}
+}
+@media screen and ( max-width: 1024px){
+    #nav{
+    display: flex;
+background-color: darkblue;
+justify-content: space-between;
+align-items: center;
+margin-top: 0px;
+gap: 5px;
+width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+}
+}
