@@ -36,3 +36,46 @@ function ch(){
             bo.classList.add('dark')
         }
 }
+function mn(){
+    let h=document.querySelector('h1');
+    if(h.classList.contains('pp')){
+        h.classList.remove('pp')
+    }
+    else{
+        h.classList.add('pp')
+    }
+}
+
+
+function d (){
+    let a=document.getElementById('nu').value
+    let t=document.getElementById('se').value
+    let y=document.getElementById('num').value
+
+if(t=='*'){
+    solu=a*y
+}
+else {
+   solu= a/y
+}
+document.getElementById('l').innerHTML='solution ='+solu
+}
+
+
+// var body=document.getElementById('tbody')
+// var button=document.getElementById('btn')
+// var Header1=document.getElementsByid('pp')
+
+
+// function changethem(){
+//     if(body.style.backgroundColor=='white'){
+//         body.style.backgroundColor=='black'
+//         button.innerText=='change to white'
+//         Header1.style.backgroundColor
+        
+//     }
+//     else {
+//         body.style.backgroundColor=='black'
+//         button.innerText=='change to black'
+//     }
+// }

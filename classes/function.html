@@ -6,8 +6,8 @@
     <title>Function</title>
     <link rel="stylesheet" href="/css/function.css">
 </head>
-<body class="dark">
-    <h1>Function js </h1>
+<body id="tbody">
+    <h1 id="pp">Function js </h1>
 
     <label> Choose It </label>
     <input type="number" id="checkValue" placeholder="Enter the value">
@@ -21,7 +21,20 @@
     <input type="number" id="num2">
     <button onclick="me()">calculate</button>
     <p id="e">result</p>
-    <button id="s" onclick="ch()">Change Theme</button>
+    <button id="btn" onclick="ch()">Change Theme</button>
+    <button id="no" onclick="mn()"> play </button>
+
+
+    <br>
+
+    <input type="number" id="nu">
+    <select name="op" id="se">
+        <option value="*">multiby</option>
+        <option value="/">divid</option>
+    </select>
+    <input type="number" id="num">
+    <button id="n" onclick="d()"> sol </button>
+    <p id="l">solution =</p>
     <script src="/java/function.js"></script>
 </body>
 </html>

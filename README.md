@@ -14,3 +14,4 @@
 |11|task 5 ==> <br> css ==> | [click](/classes/task5.html) <br> [click](/css/task5.css)
 |12|task6==> <br> css==> | [click](/classes/task2.html) <br> [click](/css/task2.css)
 |13|task7==> <br> css==> <br> java==> | [click](/classes/function.html)<br> [click](/css/function.css) <br> [click](/java/function.js)
+|13|task7===> | [click](/java/try.js)
