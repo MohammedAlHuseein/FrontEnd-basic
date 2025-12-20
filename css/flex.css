@@ -1,0 +1,145 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display:flex ;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(212, 235, 221);
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+    
+} 
+#navbar h1{
+    margin-left: 2px;
+    
+}
+#navbar a{
+    margin-left: 40px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#icon{
+    display: flex;
+    align-items: center;
+}
+#main-content{
+    display: flex;
+    padding: 0 50px;
+    padding-top: 20px;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+#rang{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#filter-group ul {
+    list-style: none;
+}
+#filter-group h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+#pvalue{
+    display: flex;
+    justify-content: space-between;
+}
+h6{
+    margin-top: 10px;
+}
+#tq ul{
+list-style: none;
+}
+#filter{
+    width: 290px;
+    min-width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.card-title{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0.5rem;
+     word-break: break-all;
+}
+.card-body{
+     padding: 0px;
+    margin: 0px;
+    padding-bottom: 0.5rem;
+}
+#product{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+
+}
+.card img {
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+}
+#footer {
+    margin-top: 40px;
+    width: 100%;
+}
+.card{
+    position: relative;
+}
+.mge{
+    position: relative;
+}
+.mge .add-to-cart{
+    
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background-color: black;
+    color: #ccc;
+    border:none;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+    
+    
+}
+.mge:hover .add-to-cart{
+    display: block;
+}
+.mge p{
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    left: 5px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(7, 141, 38);
+    color: #ccc;
+    border-radius: 5px;
+    padding: 2px 10px;
+
+}

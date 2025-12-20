@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+
+    <link rel="stylesheet" href="/css/flex.css" />
+    
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="left">
+        <div id="img">
+          <img
+            width="80px"
+            height="100px"
+            src="https://t3.ftcdn.net/jpg/03/65/42/00/360_F_365420014_xjsSDkKzrhq4gr9GFzP6S97H7MJyNI5B.jpg"
+            alt=""
+          />
+        </div>
+        <h1>Mhmad Store</h1>
+        <div id="atag">
+          <a href="#">Home</a>
+          <a href="#">Categories</a>
+          <a href="#">Deals</a>
+          <a href="#">About</a>
+        </div>
+      </div>
+      <div id="right">
+        <div id="boot">
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">🔍</span>
+            <input
+              id="s"
+              type="text"
+              class="form-control"
+              placeholder="search"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+          </div>
+        </div>
+        <div id="icon">
+          <a href="#">👤</a>
+          <a href="#">🛒<span id="cart-count">0</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-content">
+      <div id="filter">
+        <div id="filter-group">
+          <h5 style="color: gray">∇ Filters</h5>
+          <ul>
+            <li>
+              <label> <input type="checkbox" /> Electronics </label>
+            </li>
+            <li>
+              <label> <input type="checkbox" /> Clothing </label>
+            </li>
+            <li>
+              <label> <input type="checkbox" /> Books </label>
+            </li>
+            <li>
+              <label> <input type="checkbox" /> Home & Garden </label>
+            </li>
+            <li>
+              <label> <input type="checkbox" /> Sports </label>
+            </li>
+            <li>
+              <label> <input type="checkbox" /> Beauty </label>
+            </li>
+          </ul>
+        </div>
+        <div id="rang">
+          <label for="customRange1" class="form-label">Price Range</label>
+          <input type="range" class="form-range" id="customRange1" />
+        </div>
+        <div id="pvalue">
+          <span>10$</span>
+          <span>100$</span>
+        </div>
+        <div id="tq">
+          <h6>Minimum Rating</h6>
+          <ul>
+            <li>
+              <label> <input type="checkbox" /> 4+ Stars </label>
+            </li>
+            <li>
+              <label> <input type="checkbox" /> 3+ Stars </label>
+            </li>
+            <li>
+              <label> <input type="checkbox" /> 2+ Stars </label>
+            </li>
+            <li>
+              <label> <input type="checkbox" /> 1+ Stars </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="product">
+        <div class="card">
+           <div class="mge">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmPXfeDt5hJmrEqteqyEK7xxJLaBb9CvmoHg&s"
+            class="card-img-top"
+            alt="..."
+          />
+          <button class="add-to-cart">🛒 Add to Cart</button>
+          <p id="one">New</p>
+           </div>
+          <div class="card-body">
+            <h5 class="card-title">Premium Wireless Headphones</h5>
+          </div>
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+           
+          </div>
+        </div>
+        <div class="card">
+           <div class="mge">
+          <img
+            src="https://m.media-amazon.com/images/I/71OqBjZOjkL._AC_UF350,350_QL80_.jpg"
+            alt="..."
+          />
+         <button class="add-to-cart">🛒 Add to Cart</button>
+           </div>
+          <div class="card-body">
+            <h5 class="card-title">Professional Running Shoes</h5>
+          </div>
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+            <span style="text-decoration: line-through">$40</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="mge">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjFR-trImW-xowtlg48pLAKMxV0QhcXCelnQ&s"
+            alt="..."
+          />
+          <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          
+          <div class="card-body">
+            <h5 class="card-title">Luxury Skincare Set</h5>
+          </div>
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+            <span style="text-decoration: line-through">$60</span>
+          </div>
+        </div>
+        <div class="card">
+           <div class="mge">  
+          <img
+            src="https://crosscolours.com/cdn/shop/files/CrossColoursDenimOversizeJacketOverdyedVintageBlack.png?v=1703256219"
+            alt="..."
+          />
+          <button class="add-to-cart">🛒 Add to Cart</button>
+           </div>
+         
+          <div class="card-body">
+            <h5 class="card-title">Vintage Denim Jacket</h5>
+          </div>
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+            <span style="text-decoration: line-through">$30</span>
+          </div>
+        </div>
+        <div class="card">
+           <div class="mge">
+          <img
+            src="https://cdn.cizucu.com/images/photos/k8EdLwXKqaEPKjeFdEZv.jpg?auto=format%2Ccompress&fit=max&w=1536&q=90"
+            alt="..."
+          />
+          <button class="add-to-cart">🛒 Add to Cart</button>
+           </div>
+          <div class="card-body">
+            <h5 class="card-title">Gaming Consoles</h5>
+          </div>
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+            <span style="text-decoration: line-through">$19</span>
+          </div>
+        </div>
+        <div class="card">
+           <div class="mge">
+          <img
+            src="https://getquicktech.com.au/wp-content/uploads/2020/12/Here-are-Essential-Accessories-One-Must-Have.jpg"
+            alt="..."
+          />
+          <button class="add-to-cart">🛒 Add to Cart</button>
+           </div>
+          <div class="card-body">
+            <h5 class="card-title">PC Accessories</h5>
+          </div>
+
+        
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+            <span style="text-decoration: line-through">$19</span>
+          </div>
+        </div>
+        <div class="card">
+           <div class="mge">
+          <img
+            src="https://d3e54emdgoy1fq.cloudfront.net/uploads/product/image/428366/large_6a6f4-PrimeCables-PC-G10-Others-USB-Gadgets-10-Inch-Large-Active-Area-Digital-Drawing-Tablet-With-12-Hot-Keys-8192-Levels-Pen-PrimeCables-.jpg"
+            alt="..."
+          />
+          <button class="add-to-cart">🛒 Add to Cart</button>
+           </div>
+          <div class="card-body">
+            <h5 class="card-title">Digital Drawing Tablet</h5>
+          </div>
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+            <span style="text-decoration: line-through">$19</span>
+          </div>
+        </div>
+        <div class="card">
+           <div class="mge">
+          <img
+            src="https://www.simple.mu/wp-content/uploads/2024/05/cleansing-brush-3.jpg"
+            alt="..."
+          />
+          <button class="add-to-cart">🛒 Add to Cart</button>
+           </div>
+          <div class="card-body">
+            <h5 class="card-title">Facial Cleansing Brush</h5>
+          </div>
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+            <span style="text-decoration: line-through">$19</span>
+          </div>
+        </div>
+        <div class="card">
+           <div class="mge">
+          <img
+            src="https://nwscdn.com/media/catalog/product/cache/h900xw900/r/e/resitance-band-main-image_1.jpg"
+            alt="..."
+          />
+          <button class="add-to-cart">🛒 Add to Cart</button>
+           </div>
+          <div class="card-body">
+            <h5 class="card-title">Resistance Band Set</h5>
+          </div>
+
+          <div class="card-body">
+            <span>⭐⭐⭐⭐</span>
+            <span>(4.2)</span>
+            <br />
+            <span><b>$10</b> </span>
+            <span style="text-decoration: line-through">$19</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.05); height: 80px"
+        >
+          © 2025 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">Mstore.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <script src="/java/flex.js"></script>
+  </body>
+</html>

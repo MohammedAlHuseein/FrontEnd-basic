@@ -59,4 +59,27 @@ var h2 = document.createElement("hs");
 h2.innerHTML = localStorage.getItem("Name");
 body.appendChild(h2);
 
-localStorage.removeItem('Name')
+localStorage.removeItem('Name');
+//  var mhu={
+//         fullname:'mhmad',
+//         age:20
+//     }
+//     localStorage.setItem('r',JSON.stringify(mhu))
+//     var head2=document.createElement('h2')
+//     var n=JSON.parse(localStorage.getItem('r'))
+//     head2.innerHTML=n.fullname+' '+n.age
+//     body.appendChild(head2)
+
+let me={
+    x:'mohammad',
+    y:20
+}
+
+
+
+localStorage.setItem('t',JSON.stringify(me))
+
+var mm=document.createElement('h4')
+var new_1=JSON.parse(localStorage.getItem('t'))
+mm.innerHTML=new_1.x +' '+new_1.y
+body.appendChild(mm)
