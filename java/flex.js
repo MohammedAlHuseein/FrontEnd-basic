@@ -11,3 +11,56 @@ for( let i=0 ; i<add.length; i+=1 ){
 
     })
 }
+
+let dark = localStorage.getItem('mood') === 'true'
+
+let body = document.getElementById('tbody')
+let theme=document.getElementById('theme')
+let filter = document.getElementById('filter')
+ if (dark){
+        body.style.backgroundColor='black'
+        filter.style.backgroundColor='black'
+        filter.style.color='white'
+        localStorage.setItem('mood' , dark)
+      
+    } 
+     else {
+        body.style.backgroundColor='white'
+        filter.style.backgroundColor='white'
+       filter.style.color='black'
+       localStorage.setItem('mood' , dark)
+       
+    }
+
+theme.addEventListener('click' , function(event){
+    event.preventDefault()
+    dark=! dark
+    if (dark){
+        body.style.backgroundColor='black'
+        filter.style.backgroundColor='black'
+        filter.style.color='white'
+        localStorage.setItem('mood' , dark)
+      
+    } 
+    else {
+        body.style.backgroundColor='white'
+        filter.style.backgroundColor='white'
+       filter.style.color='black'
+       localStorage.setItem('mood' , dark)
+       
+    }
+})
+
+
+
+
+
+let profile = document.getElementById('profile')
+profile.addEventListener('click' , function(event){
+    event.preventDefault(); 
+    window.open('rig.html', 'Register', 'width=800,height=1000');
+})
+
+
+
+
