@@ -61,6 +61,10 @@ profile.addEventListener('click' , function(event){
     window.open('rig.html', 'Register', 'width=800,height=1000');
 })
 
-
+document.getElementById('ele').addEventListener('change', function() {
+    if(this.checked) {
+        document.getElementById('electronics').scrollIntoView({behavior: 'smooth'});
+    }
+});
 
 
