@@ -12,6 +12,8 @@ for( let i=0 ; i<add.length; i+=1 ){
     })
 }
 
+
+
 let dark = localStorage.getItem('mood') === 'true'
 
 let body = document.getElementById('tbody')
@@ -66,5 +68,29 @@ document.getElementById('ele').addEventListener('change', function() {
         document.getElementById('electronics').scrollIntoView({behavior: 'smooth'});
     }
 });
+let menu=document.querySelectorAll('.m')
+let new_card=document.querySelectorAll('.card')
 
+for ( let i=0 ; i<menu.length ; i++){
+    menu[i].addEventListener('click' , function(s){
+        s.preventDefault()
+        let selected=menu[i].dataset.type;
+        for ( let j=0 ; j<new_card.length ; j++){
+            let card=new_card[j].dataset.category;
+             if (selected === 'all' || card === selected) {
+                new_card[j].style.display = '';
+             } else {
+                  new_card[j].style.display = 'none';
+             }
+        }
+    })
+}
 
+let about = document.getElementById("abou");
+let contact = document.getElementById("contact");
+about.addEventListener('click', function (c) {
+  c.preventDefault();
+
+  contact.style.display = 'block';
+  contact.scrollIntoView({ behavior: "smooth" });
+});

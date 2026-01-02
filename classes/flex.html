@@ -34,11 +34,21 @@
         <h1>Mhmad Store</h1>
         <div id="atag">
           <a href="#">Home</a>
-          <a href="#">Categories</a>
-          <a href="#">Deals</a>
-          <a href="#">About</a>
+          <div class="dropd">
+            <a href="#" class="dr">Categories ▾ </a>
+             <div class="dropdown-menu">
+      <a href="#" class="m" data-type="all">All</a>
+      <a href="#" class="m" data-type="electronics">Electronics</a>
+      <a href="#" class="m" data-type="clothing">Clothing</a>
+      <a href="#" class="m" data-type="beauty">Beauty</a>
+      <a href="#" class="m" data-type="sports">Sports</a>
+    </div>
+          </div>
+          
+          <a  href="#contact" id="abou">About</a>
         </div>
       </div>
+      
       <div id="right">
         <div id="boot">
           <div class="input-group flex-nowrap">
@@ -114,7 +124,7 @@
       </div>
       <div id="product">
         
-        <div class="card">
+        <div class="card" data-category="electronics">
           
            <div class="mge">
           <img
@@ -137,7 +147,7 @@
            
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="sports">
            <div class="mge">
           <img
             src="https://m.media-amazon.com/images/I/71OqBjZOjkL._AC_UF350,350_QL80_.jpg"
@@ -157,7 +167,7 @@
             <span style="text-decoration: line-through">$40</span>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="beauty">
           <div class="mge">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjFR-trImW-xowtlg48pLAKMxV0QhcXCelnQ&s"
@@ -178,7 +188,7 @@
             <span style="text-decoration: line-through">$60</span>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="clothing">
            <div class="mge">  
           <img
             src="https://crosscolours.com/cdn/shop/files/CrossColoursDenimOversizeJacketOverdyedVintageBlack.png?v=1703256219"
@@ -199,7 +209,7 @@
             <span style="text-decoration: line-through">$30</span>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="electronics">
            <div class="mge">
           <img
             src="https://cdn.cizucu.com/images/photos/k8EdLwXKqaEPKjeFdEZv.jpg?auto=format%2Ccompress&fit=max&w=1536&q=90"
@@ -219,7 +229,7 @@
             <span style="text-decoration: line-through">$19</span>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="electronics">
            <div class="mge">
           <img
             src="https://getquicktech.com.au/wp-content/uploads/2020/12/Here-are-Essential-Accessories-One-Must-Have.jpg"
@@ -241,7 +251,7 @@
             <span style="text-decoration: line-through">$19</span>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="electronics">
            <div class="mge">
           <img
             src="https://d3e54emdgoy1fq.cloudfront.net/uploads/product/image/428366/large_6a6f4-PrimeCables-PC-G10-Others-USB-Gadgets-10-Inch-Large-Active-Area-Digital-Drawing-Tablet-With-12-Hot-Keys-8192-Levels-Pen-PrimeCables-.jpg"
@@ -261,7 +271,7 @@
             <span style="text-decoration: line-through">$19</span>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="beauty">
            <div class="mge">
           <img
             src="https://www.simple.mu/wp-content/uploads/2024/05/cleansing-brush-3.jpg"
@@ -281,7 +291,7 @@
             <span style="text-decoration: line-through">$19</span>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="sports">
            <div class="mge">
           <img
             src="https://nwscdn.com/media/catalog/product/cache/h900xw900/r/e/resitance-band-main-image_1.jpg"
@@ -302,6 +312,18 @@
           </div>
         </div>
       </div>
+    </div>
+    
+    <div id="contact" style="display: none;"> 
+
+      <h1 style="font-size: medium; font-weight: 100; padding: 20px"> About Store :  
+        Mhmad Store is an online shopping platform that offers a wide range of high-quality products including electronics, clothing, beauty items, and sports equipment.
+
+Our goal is to provide customers with a smooth, simple, and enjoyable shopping experience. We focus on affordable prices, trusted products, and easy navigation so you can find what you need quickly and confidently.
+
+At Mhmad Store, customer satisfaction comes first. We are constantly working to improve our services and expand our product categories to meet your needs.</h1>
+
+<h2 style="font-size: medium; font-weight: 100; padding: 20px; "> <br> Email:<br>MhmmadAlhussien@gmail.com</h2>
     </div>
 
     <div id="footer">
@@ -384,6 +406,8 @@
         <!-- Copyright -->
       </footer>
     </div>
+
+    
     
     <script src="/java/flex.js"></script>
   </body>
